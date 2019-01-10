@@ -1,0 +1,81 @@
+<resources xml:space="preserve">
+  <string name="app_name" translatable="false">Perpusair App</string>
+  <string name="instructions">Masukan judul buku yang ingin Anda cari</string>
+  <string name="button_text">Cari Buku</string>
+  <string name="input_hint">Judul buku</string>
+  <string name="no_search_term">Silakan masukkan kata kunci pencarian.</string>
+  <string name="no_network">Silakan periksa koneksi jaringan Anda dan coba lagi.</string>
+  <string name="no_results">Tidak ada hasil yang ditemukan</string>
+  <string name="end_results">Sudah selesai memuat hasil.</string>
+  <string name="ServerError">Server tidak dapat ditemukan. Silakan coba lagi setelah beberapa waktu!</string>
+  <string name="ParseError">Kesalahan parsing! Silakan coba lagi setelah beberapa waktu!</string>
+  <string name="TimeoutError">Koneksi Terputus! Silakan periksa koneksi internet Anda.</string>
+  <string name="RefreshPage">REFRESH</string>
+
+  <string name="valid_isbn">Masukkan ISBN yang valid</string>
+  <string name="valid_title">Masukkan judul buku</string>
+  <string name="valid_author">Masukkan penulis buku</string>
+
+  <!--BookInfo>-->
+
+  <string name="Average_Rating">Penilaian rata-rata:&#160;</string>
+  <string name="by">"oleh "</string>
+  <string name="Published">Diterbitkan:&#160;</string>
+  <string name="Genres">Genres:&#160;</string>
+  <string name="ISBN_13" translatable="false">ISBN_13:&#160;</string>
+  <string name="ISBN_10" translatable="false">ISBN_10:&#160;</string>
+  <string name="Pages">Halaman:&#160;</string>
+  <string name="WeCantGetInfo">Tidak bisa memperoleh informasi tentang buku ini. Coba lagi nanti.</string>
+
+  <!--Buttons>-->
+  <string name="MarkAsRead">Tandai sudah terbaca</string>
+  <string name="MarkAsNotRead">Tandai belum terbaca</string>
+  <string name="AddtoCollection">Tambah ke koleksi</string>
+  <string name="RemovefromCollection">Hapus dari Koleksi</string>
+  <string name="AddtoWishlist">Tambahkan ke Daftar Keinginan</string>
+  <string name="RemovefromWishlist">Hapus dari Daftar Keinginan</string>
+
+  <!--MainMenu>-->
+  <string name="couldNotQR">Tidak dapat menemukan buku dari QR</string>
+  <!--footer_logo>-->
+  <string name="poweredBy" translatable="false">dipersembahkan oleh</string>
+
+  <!--menu>-->
+  <string name="Search">Cari</string>
+  <string name="Collection">Buka Koleksi</string>
+  <string name="AddManual">Tambah manual</string>
+  <string name="Sort">Urutkan</string>
+
+  <string name="Sort_Rating">dari rating</string>
+  <string name="Sort_Rating_ASC">dari rating (asc)</string>
+  <string name="Sort_Rating_DESC">dari rating (desc)</string>
+
+  <string name="Sort_AvgRating">dari rating rata-rata</string>
+  <string name="Sort_AvgRating_ASC">dari rating rata-rata (asc)</string>
+  <string name="Sort_AvgRating_DESC">dari rating rata-rata (desc)</string>
+
+  <string name="Sort_Title">dari judul</string>
+  <string name="Sort_Title_ASC">dari judul (asc)</string>
+  <string name="Sort_Title_DESC">dari judul (desc)</string>
+
+  <string name="Sort_Author">dari penulis</string>
+  <string name="Sort_Author_ASC">dari penulis (asc)</string>
+  <string name="Sort_Author_DESC">dari penulis (desc)</string>
+
+  <!--error_page-->
+  <string name="TryAddingManually">Coba tambahkan buku secara manual dari toolbar.</string>
+  <string name="NoBooksCollection">Koleksi Anda kosong, tambahkan beberapa buku.</string>
+  <string name="NoBooksWishlist">Daftar keinginan Anda kosong, tambahkan beberapa buku.</string>
+
+  <!--manual-->
+  <string name="Scanbarcode">Scan barcode</string>
+  <string name="AddISBN">Tambah dengan ISBN</string>
+
+  <!--manual_add-->
+    <string name="title">Judul:</string>
+  <string name="author">Penulis:</string>
+  <string name="add">Tambah</string>
+  <!--manual_add_isbn-->
+<string name="ISBN">ISBN</string>
+
+</resources>

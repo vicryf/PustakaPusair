@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+      android:id="@+id/action_search"
+      android:icon="@drawable/ic_search_white_24dp"
+      android:title="@string/Search"
+      app:actionViewClass="android.support.v7.widget.SearchView"
+      app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+      android:id="@+id/collectionButton"
+      android:title="@string/Collection"
+      android:icon="@drawable/ic_library_books_white_24dp"
+      android:onClick="toGallery"
+      app:showAsAction="ifRoom|collapseActionView"/>
+
+    <item
+      android:id="@+id/addManual"
+      android:title="@string/AddManual"
+      android:icon="@drawable/ic_library_add_white_24dp"
+      app:showAsAction="ifRoom|collapseActionView"
+      android:onClick="addBookManual"/>
+
+</menu>
